@@ -30,7 +30,6 @@ class MasterViewController: UITableViewController {
         else {
             allwords = ["silkworm"]
         }
-        
         startGame()
     }
 
@@ -51,7 +50,6 @@ class MasterViewController: UITableViewController {
     }
 
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        
         let cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath)
         
         let object = objects[indexPath.row]
@@ -63,6 +61,10 @@ class MasterViewController: UITableViewController {
     // MARK: GAME
     
     func startGame() {
+        let ac1 = UIAlertController(title: "Welcome to Word Scramble!", message: "The goal of this game is to find as many hidden words as you can inside the title string given. Good Luck!", preferredStyle: .Alert)
+        ac1.addAction(UIAlertAction(title: "Play", style: .Default, handler: nil))
+        presentViewController(ac1, animated: true, completion: nil)
+        
         allwords = GKRandomSource.sharedRandom().arrayByShufflingObjectsInArray(allwords) as! [String]
         title = allwords[0]
         objects.removeAll(keepCapacity: true)
@@ -80,7 +82,6 @@ class MasterViewController: UITableViewController {
         
         ac.addAction(submitAction)
         presentViewController(ac, animated: true, completion: nil)
-        
     }
     
     func submitAnswer(answer: String){
@@ -111,7 +112,7 @@ class MasterViewController: UITableViewController {
         }
         else {
             errorTitle = "Word not possible"
-            errorMessage = " You can't spell that word from '\(title!.lowercaseStrinf)'!"
+            errorMessage = " You can't spell that word from '\(title!.lowercaseString)'!"
         }
         
         let ac = UIAlertController(title: errorTitle, message: errorMessage, preferredStyle: .Alert)
@@ -128,7 +129,6 @@ class MasterViewController: UITableViewController {
             }
             else { return false }
         }
-        
         return true
     }
     
@@ -139,20 +139,13 @@ class MasterViewController: UITableViewController {
     func wordIsReal(word: String) -> Bool {
         let checker = UITextChecker()
         let range = NSMakeRange(0, word.characters.count)
-        let misspelledRange = checker.rangeOfMisspelledWordInString(word,range: range, startingAt: 0, wrap: false, language: "en")
+        let misspelledRange = checker.rangeOfMisspelledWordInString(word, range: range, startingAt: 0, wrap: false, language: "en")
         
+        if word.characters.count < 2 {
+            return false
+        }
         return misspelledRange.location == NSNotFound
     }
-
-
-    /*
-     // Implementing the above methods to update the table view in response to individual changes may have performance implications if a large number of changes are made simultaneously. If this proves to be an issue, you can instead just implement controllerDidChangeContent: which notifies the delegate that all section and object changes have been processed.
-     
-     func controllerDidChangeContent(controller: NSFetchedResultsController) {
-         // In the simplest, most efficient, case, reload the table view.
-         self.tableView.reloadData()
-     }
-     */
 
 }
 
