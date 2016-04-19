@@ -32,7 +32,10 @@
                         <toolbar key="tableFooterView" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="x2u-Oo-Mph">
                             <rect key="frame" x="0.0" y="130" width="600" height="44"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+<<<<<<< HEAD
                             <animations/>
+=======
+>>>>>>> ableda/master
                             <items>
                                 <barButtonItem title="Score: 0" id="K5B-Gp-BPu"/>
                             </items>
