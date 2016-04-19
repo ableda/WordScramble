@@ -15,6 +15,7 @@ class MasterViewController: UITableViewController {
     var objects = [String]()
     var allwords = [String]()
 
+    @IBOutlet weak var toolbar: UIToolbar!
 
     override func viewDidLoad() {
         super.viewDidLoad()
