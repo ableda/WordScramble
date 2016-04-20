@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4DBFC3341CC6FD1100C749FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBFC3291CC6FD1100C749FC /* AppDelegate.swift */; settings = {ASSET_TAGS = (); }; };
+		4DBFC3351CC6FD1100C749FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DBFC32A1CC6FD1100C749FC /* Assets.xcassets */; settings = {ASSET_TAGS = (); }; };
+		4DBFC3361CC6FD1100C749FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DBFC32B1CC6FD1100C749FC /* LaunchScreen.storyboard */; settings = {ASSET_TAGS = (); }; };
+		4DBFC3371CC6FD1100C749FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DBFC32D1CC6FD1100C749FC /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
+		4DBFC3381CC6FD1100C749FC /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4DBFC32F1CC6FD1100C749FC /* Info.plist */; settings = {ASSET_TAGS = (); }; };
+		4DBFC3391CC6FD1100C749FC /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBFC3301CC6FD1100C749FC /* MasterViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		4DBFC33A1CC6FD1100C749FC /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4DBFC3311CC6FD1100C749FC /* start.txt */; settings = {ASSET_TAGS = (); }; };
+		4DBFC33B1CC6FD1100C749FC /* WordScramble.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4DBFC3321CC6FD1100C749FC /* WordScramble.xcdatamodeld */; settings = {ASSET_TAGS = (); }; };
+		4DBFC3421CC6FD1900C749FC /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4DBFC33D1CC6FD1900C749FC /* Info.plist */; settings = {ASSET_TAGS = (); }; };
+		4DBFC3431CC6FD1900C749FC /* WordScrambleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBFC33E1CC6FD1900C749FC /* WordScrambleTests.swift */; settings = {ASSET_TAGS = (); }; };
+		4DBFC3441CC6FD1900C749FC /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4DBFC3401CC6FD1900C749FC /* Info.plist */; settings = {ASSET_TAGS = (); }; };
+		4DBFC3451CC6FD1900C749FC /* WordScrambleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBFC3411CC6FD1900C749FC /* WordScrambleUITests.swift */; settings = {ASSET_TAGS = (); }; };
 		E5A9EF981CC00CBB00994004 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A9EF971CC00CBB00994004 /* AppDelegate.swift */; };
 		E5A9EF9B1CC00CBB00994004 /* WordScramble.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E5A9EF991CC00CBB00994004 /* WordScramble.xcdatamodeld */; };
 		E5A9EF9D1CC00CBB00994004 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A9EF9C1CC00CBB00994004 /* MasterViewController.swift */; };
@@ -36,6 +48,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4DBFC3291CC6FD1100C749FC /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4DBFC32A1CC6FD1100C749FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4DBFC32C1CC6FD1100C749FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4DBFC32E1CC6FD1100C749FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4DBFC32F1CC6FD1100C749FC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DBFC3301CC6FD1100C749FC /* MasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		4DBFC3311CC6FD1100C749FC /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
+		4DBFC3331CC6FD1100C749FC /* WordScramble.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WordScramble.xcdatamodel; sourceTree = "<group>"; };
+		4DBFC33D1CC6FD1900C749FC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DBFC33E1CC6FD1900C749FC /* WordScrambleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordScrambleTests.swift; sourceTree = "<group>"; };
+		4DBFC3401CC6FD1900C749FC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DBFC3411CC6FD1900C749FC /* WordScrambleUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordScrambleUITests.swift; sourceTree = "<group>"; };
 		E5A9EF941CC00CBB00994004 /* WordScramble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordScramble.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5A9EF971CC00CBB00994004 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E5A9EF9A1CC00CBB00994004 /* WordScramble.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WordScramble.xcdatamodel; sourceTree = "<group>"; };
@@ -78,9 +102,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4DBFC3281CC6FD1100C749FC /* WordScramble */ = {
+			isa = PBXGroup;
+			children = (
+				4DBFC3291CC6FD1100C749FC /* AppDelegate.swift */,
+				4DBFC32A1CC6FD1100C749FC /* Assets.xcassets */,
+				4DBFC32B1CC6FD1100C749FC /* LaunchScreen.storyboard */,
+				4DBFC32D1CC6FD1100C749FC /* Main.storyboard */,
+				4DBFC32F1CC6FD1100C749FC /* Info.plist */,
+				4DBFC3301CC6FD1100C749FC /* MasterViewController.swift */,
+				4DBFC3311CC6FD1100C749FC /* start.txt */,
+				4DBFC3321CC6FD1100C749FC /* WordScramble.xcdatamodeld */,
+			);
+			path = WordScramble;
+			sourceTree = "<group>";
+		};
+		4DBFC33C1CC6FD1900C749FC /* WordScrambleTests */ = {
+			isa = PBXGroup;
+			children = (
+				4DBFC33D1CC6FD1900C749FC /* Info.plist */,
+				4DBFC33E1CC6FD1900C749FC /* WordScrambleTests.swift */,
+			);
+			path = WordScrambleTests;
+			sourceTree = "<group>";
+		};
+		4DBFC33F1CC6FD1900C749FC /* WordScrambleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4DBFC3401CC6FD1900C749FC /* Info.plist */,
+				4DBFC3411CC6FD1900C749FC /* WordScrambleUITests.swift */,
+			);
+			path = WordScrambleUITests;
+			sourceTree = "<group>";
+		};
 		E5A9EF8B1CC00CBB00994004 = {
 			isa = PBXGroup;
 			children = (
+				4DBFC33C1CC6FD1900C749FC /* WordScrambleTests */,
+				4DBFC33F1CC6FD1900C749FC /* WordScrambleUITests */,
+				4DBFC3281CC6FD1100C749FC /* WordScramble */,
 				E5A9EF961CC00CBB00994004 /* WordScramble */,
 				E5A9EFB01CC00CBB00994004 /* WordScrambleTests */,
 				E5A9EFBB1CC00CBB00994004 /* WordScrambleUITests */,
@@ -235,10 +295,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DBFC3381CC6FD1100C749FC /* Info.plist in Resources */,
+				4DBFC33A1CC6FD1100C749FC /* start.txt in Resources */,
+				4DBFC3371CC6FD1100C749FC /* Main.storyboard in Resources */,
 				E5A9EFA71CC00CBB00994004 /* LaunchScreen.storyboard in Resources */,
 				E5A9EFCB1CC00EE900994004 /* start.txt in Resources */,
 				E5A9EFA41CC00CBB00994004 /* Assets.xcassets in Resources */,
+				4DBFC3361CC6FD1100C749FC /* LaunchScreen.storyboard in Resources */,
 				E5A9EFA21CC00CBB00994004 /* Main.storyboard in Resources */,
+				4DBFC3441CC6FD1900C749FC /* Info.plist in Resources */,
+				4DBFC3421CC6FD1900C749FC /* Info.plist in Resources */,
+				4DBFC3351CC6FD1100C749FC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,8 +330,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DBFC3391CC6FD1100C749FC /* MasterViewController.swift in Sources */,
+				4DBFC3341CC6FD1100C749FC /* AppDelegate.swift in Sources */,
+				4DBFC3451CC6FD1900C749FC /* WordScrambleUITests.swift in Sources */,
+				4DBFC3431CC6FD1900C749FC /* WordScrambleTests.swift in Sources */,
 				E5A9EF9B1CC00CBB00994004 /* WordScramble.xcdatamodeld in Sources */,
 				E5A9EF981CC00CBB00994004 /* AppDelegate.swift in Sources */,
+				4DBFC33B1CC6FD1100C749FC /* WordScramble.xcdatamodeld in Sources */,
 				E5A9EF9D1CC00CBB00994004 /* MasterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,6 +373,22 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		4DBFC32B1CC6FD1100C749FC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DBFC32C1CC6FD1100C749FC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		4DBFC32D1CC6FD1100C749FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DBFC32E1CC6FD1100C749FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
 		E5A9EFA01CC00CBB00994004 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -490,6 +578,7 @@
 				E5A9EFC31CC00CBB00994004 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E5A9EFC41CC00CBB00994004 /* Build configuration list for PBXNativeTarget "WordScrambleTests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +587,7 @@
 				E5A9EFC61CC00CBB00994004 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E5A9EFC71CC00CBB00994004 /* Build configuration list for PBXNativeTarget "WordScrambleUITests" */ = {
 			isa = XCConfigurationList;
@@ -506,10 +596,21 @@
 				E5A9EFC91CC00CBB00994004 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
+		4DBFC3321CC6FD1100C749FC /* WordScramble.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4DBFC3331CC6FD1100C749FC /* WordScramble.xcdatamodel */,
+			);
+			currentVersion = 4DBFC3331CC6FD1100C749FC /* WordScramble.xcdatamodel */;
+			path = WordScramble.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
 		E5A9EF991CC00CBB00994004 /* WordScramble.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
