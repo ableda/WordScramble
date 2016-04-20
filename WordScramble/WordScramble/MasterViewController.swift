@@ -15,7 +15,6 @@ class MasterViewController: UITableViewController {
     var objects = [String]()
     var allwords = [String]()
 
-    @IBOutlet weak var toolbar: UIToolbar!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,6 +30,10 @@ class MasterViewController: UITableViewController {
         else {
             allwords = ["silkworm"]
         }
+        
+        self.navigationController?.setToolbarHidden(false, animated: true)
+        
+        
         startGame()
     }
 
@@ -57,6 +60,8 @@ class MasterViewController: UITableViewController {
         cell.textLabel!.text = object
         return cell
     }
+    
+    
 
     
     // MARK: GAME
