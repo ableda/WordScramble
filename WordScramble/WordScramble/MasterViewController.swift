@@ -31,8 +31,11 @@ class MasterViewController: UITableViewController {
             allwords = ["silkworm"]
         }
         
-        self.navigationController?.setToolbarHidden(false, animated: true)
+        let scoreBoard = UIBarButtonItem()
+        scoreBoard.title = "Score: 0"
         
+        self.navigationController?.setToolbarHidden(false, animated: true)
+        self.setToolbarItems([scoreBoard], animated: true)
         
         startGame()
     }
