@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WordScramble/MasterViewController.swift"
-            timestampString = "482805572.490172"
+            timestampString = "482806357.081204"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "67"
-            endingLineNumber = "67"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
             landmarkName = "MasterViewController"
             landmarkType = "3">
          </BreakpointContent>

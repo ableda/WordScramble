@@ -14,6 +14,9 @@ class MasterViewController: UITableViewController {
    // var detailViewController: DetailViewController? = nil
     var objects = [String]()
     var allwords = [String]()
+    
+    let scoreBoard = UIBarButtonItem()
+    var timerLabel = NSTimer()
 
 
     override func viewDidLoad() {
@@ -31,11 +34,12 @@ class MasterViewController: UITableViewController {
             allwords = ["silkworm"]
         }
         
-        let scoreBoard = UIBarButtonItem()
+        
         scoreBoard.title = "Score: 0"
         
         self.navigationController?.setToolbarHidden(false, animated: true)
         self.setToolbarItems([scoreBoard], animated: true)
+        self.navigationController.
         
         startGame()
     }
@@ -93,6 +97,8 @@ class MasterViewController: UITableViewController {
         presentViewController(ac, animated: true, completion: nil)
     }
     
+    var count = 0
+    
     func submitAnswer(answer: String){
         let lowerAnswer = answer.lowercaseString
         
@@ -106,6 +112,9 @@ class MasterViewController: UITableViewController {
                     
                     let indexPath = NSIndexPath(forRow: 0, inSection: 0)
                     tableView.insertRowsAtIndexPaths([indexPath], withRowAnimation: .Automatic)
+                    
+                    count += 1
+                    scoreBoard.title = "Score: \(count)"
                     
                     return
                 }
