@@ -39,7 +39,7 @@ class MasterViewController: UITableViewController {
         
         self.navigationController?.setToolbarHidden(false, animated: true)
         self.setToolbarItems([scoreBoard], animated: true)
-        self.navigationController.
+       
         
         startGame()
     }
@@ -74,7 +74,7 @@ class MasterViewController: UITableViewController {
     // MARK: GAME
     
     func startGame() {
-        let ac1 = UIAlertController(title: "Welcome to Word Scramble!", message: "The goal of this game is to find as many hidden words as you can inside the title string given. Good Luck!", preferredStyle: .Alert)
+        let ac1 = UIAlertController(title: "Welcome to Word Scramble!", message: "The goal of this game is to find as many hidden words as you can inside the title string given. Score is determined by length of the words found. Good Luck!", preferredStyle: .Alert)
         ac1.addAction(UIAlertAction(title: "Play", style: .Default, handler: nil))
         presentViewController(ac1, animated: true, completion: nil)
         
@@ -113,7 +113,7 @@ class MasterViewController: UITableViewController {
                     let indexPath = NSIndexPath(forRow: 0, inSection: 0)
                     tableView.insertRowsAtIndexPaths([indexPath], withRowAnimation: .Automatic)
                     
-                    count += 1
+                    count += lowerAnswer.characters.count
                     scoreBoard.title = "Score: \(count)"
                     
                     return
